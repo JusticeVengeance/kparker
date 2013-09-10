@@ -1,0 +1,141 @@
+body {
+	background-color:#B3C0CF;
+  	margin:0 auto;
+	width:100%;
+}
+#head {
+	background-color:#064C99;
+	margin:0 auto;
+	-moz-border-radius: 12px;
+}
+#container {
+	margin:0 auto;
+}
+#block_container {
+  float:left;
+  position:absolute;
+  width:20%;
+}
+#rblock_container {
+  float:right;
+  position:absolute;
+  width:20%;
+}
+h1 {
+  
+}
+.rblock {
+  /*margin-right:1%;*/	
+  float:right;
+}
+.lblock {
+  /*margin-left:1%;*/	
+  float:left;
+}
+.lclear {
+  clear:left;
+}
+.rclear {
+  clear:right;
+}
+.block {
+  margin:1%;
+  height:120px; 
+  background-color:#A9BBCF;
+}
+
+/***** BEGIN INDIVIDUAL BLOCK STYLING ******/
+
+/*#page-wrap { 
+	 				  background: url(images/bg-blurry.jpg) no-repeat fixed;
+	 				  border: 2% solid white; 
+            padding: 1%;
+					  -moz-border-radius: 1%; 
+            -webkit-border-radius: 1%; 
+}*/
+
+.span1 {
+  width:8%;
+}
+.span2 {
+  width:18%;
+}
+.span3 {
+  width:28%;
+}
+.span4 {
+  width:38%;
+}
+.span5 {
+  width:48%;
+}
+.span6 {
+  width:58%;
+}
+.span7 {
+  width:68%;
+}
+.span8 {
+  width:78%;
+}
+.span9 {
+  width:88%;
+}
+.span10 {
+  width:98%;
+}
+.span11 {
+  width:100%;
+}
+.span12 {
+  width:100%;
+}
+
+/*media queries*/
+
+@media screen and (max-width:480px) {
+  #block_container {
+	position:fixed;
+	width:100%;
+  }
+  #rblock_container {
+	position:fixed;
+	width:100%;
+  }
+  .span1 {
+  width:8%;
+}
+.span2 {
+  width:18%;
+}
+.span3 {
+  width:28%;
+}
+.span4 {
+  width:38%;
+}
+.span5 {
+  width:48%;
+}
+.span6 {
+  width:58%;
+}
+.span7 {
+  width:68%;
+}
+.span8 {
+  width:78%;
+}
+.span9 {
+  width:88%;
+}
+.span10 {
+  width:98%;
+}
+.span11 {
+  width:100%;
+}
+.span12 {
+  width:100%;
+}
+}

@@ -1,0 +1,176 @@
+body {
+  background-color:#6997D3;
+  margin:0;
+}
+#this-carousel-auto {
+	float:right;
+	margin:0px auto;
+}
+.placement {
+	border: solid 1px #000;
+	z-index:3;
+}
+.container {
+	margin-left: auto;
+	margin-right: auto;
+	
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width:100%;
+}
+.container span {
+	display: block;
+	margin: 10% 10% 10% 10%;
+}
+#block_container {
+  float:left;
+  margin:0;
+  position:absolute;
+  z-index:2;
+}
+#rblock_container {
+  float:right;
+  margin:0;
+  position:relative;
+  z-index:1;
+}
+h3 {
+  font-size:1em;
+}
+.rblock {
+  margin:0 0 1% 1%;	
+  float:right;
+}
+.lblock {
+  margin:0 1% 1% 0;	
+  float:left;
+}
+.lclear {
+  clear:left;
+}
+.rclear {
+  clear:right;
+}
+.block {
+  height:65px;
+  position:relative;
+  overflow:hidden;
+  display:inline-block;
+}
+.block:before {
+  display:block;
+  background:#f00;
+  content:' ';
+  border:40px solid;
+  border-color:#aaa #aaa;
+  border-width:0 65px 65px;
+}
+.red:before    {border-color:#bc3f39 #d74c3f;}
+.orange:before {border-color:#d3711a #ef871b;}
+.yellow:before {border-color:#e5a128 #ffbb2a;}
+.green:before  {border-color:#a3b53a #b6d141;}
+.teal:before   {border-color:#00b78a #00ce98;}
+.blue:before   {border-color:#4badb7 #55c0d3;}
+.purple:before {border-color:#6b619e #8070ba;}
+.pink:before   {border-color:#bf497f #e6528c;}
+/***** BEGIN INDIVIDUAL BLOCK STYLING ******/
+
+/*#page-wrap { 
+	 				  background: url(images/bg-blurry.jpg) no-repeat fixed;
+	 				  border: 2% solid white; 
+            padding: 1%;
+					  -moz-border-radius: 1%; 
+            -webkit-border-radius: 1%; 
+}*/
+
+.span1 {
+  width:8%;
+}
+.span2 {
+  width:17.25%;
+}
+.span3 {
+  width:26.5%;
+}
+.span4 {
+  width:38%;
+}
+.span5 {
+  width:48%;
+}
+.span6 {
+  width:58%;
+}
+.span7 {
+  width:68%;
+}
+.span8 {
+  width:78%;
+}
+.span9 {
+  width:88%;
+}
+.span10 {
+  width:98%;
+}
+.span11 {
+  width:100%;
+}
+.span12 {
+  width:100%;
+}
+
+/*media queries*/
+
+@media screen and (max-width:480px) {
+  #container {
+	margin:1%;
+    z-index:3;
+  }
+  #block_container {
+	position:absolute;
+	width:100%;
+  	z-index:2;
+  } 
+  #rblock_container {
+	position:absolute;
+	width:100%;
+  z-index:1;
+  }
+  .span1 {
+  width:16.666%;
+}
+.span2 {
+  width:34.5%;
+}
+.span3 {
+  width:28%;
+}
+.span4 {
+  width:38%;
+}
+.span5 {
+  width:48%;
+}
+.span6 {
+  width:58%;
+}
+.span7 {
+  width:68%;
+}
+.span8 {
+  width:78%;
+}
+.span9 {
+  width:88%;
+}
+.span10 {
+  width:98%;
+}
+.span11 {
+  width:100%;
+}
+.span12 {
+  width:100%;
+}
